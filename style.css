@@ -46,6 +46,9 @@ body {
   position: absolute;
   bottom: 8%;
   left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #buttons button {
@@ -57,9 +60,10 @@ body {
   color: #fff;
   border: 1px solid #191c2130;
   cursor: pointer;
+  margin-right: 5px;
 }
 
-#increment {
+/* #increment {
   position: absolute;
   right: 0;
-}
+} */
